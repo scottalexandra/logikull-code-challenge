@@ -22,3 +22,18 @@
   `rspec`
 * Start the server
   `rails s`
+
+## Endpoints
+*Artists*
+* artists#index:   `GET /artists`                                                                       
+* artists#create:  `POST /artists`                                                                       
+* artists#show:    `GET /artists/:id`            
+* artists#update:  `PUT /artists/:id` 
+* artists#destroy: `DELETE /artists/:id`                                                                   
+
+*Albums*
+* albums#index:    `GET /artists/:artist_id/albums`
+* albums#create:   `POST /artists/:artist_id/albums`                                                     
+* albums#show:     `GET /artists/:artist_id/albums/:id`                                                 
+* albums#update:   `PUT /artists/:artist_id/albums/:id`
+* albums#destroy:  `DELETE /artists/:artist_id/albums/:id`                                                 
