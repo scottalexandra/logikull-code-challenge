@@ -1,6 +1,6 @@
 # Album Manager API
 
-* This is an API to manager your Albums, to go along with the ![Album Manager UI](https://github.com/scottalexandra/logikull-code-challenge-ui)
+* This is an API to manager your Albums, to go along with the [Album Manager UI](https://github.com/scottalexandra/logikull-code-challenge-ui)
 * It's built using Rails with a Postgres database
 * Ruby version
  `2.3.1`
