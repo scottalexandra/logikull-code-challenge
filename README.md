@@ -16,7 +16,6 @@
     * `cp config/application.example.yml config/application.yml`
     * Replace the expample username and password with your database username and password
   * `rake db:setup`
-  * `rake db: migrate`
 
 * Run the tests
   `rspec`
